@@ -8,19 +8,19 @@ def restaurant_list(request):
     context = {
     	'my_list': [
     			{
-    				"resaurant_name": "Mcdonald's",
+    				"restaurant_name": "Mcdonald's",
     				"food_type": "Fast Food",
     			},
     			{
-    				"resaurant_name": "Herfy",
+    				"restaurant_name": "Herfy",
     				"food_type": "Fast Food",
     			},
     			{
-    				"resaurant_name": "Kudu",
+    				"restaurant_name": "Kudu",
     				"food_type": "Fast Food",
     			},
     			{
-    				"resaurant_name": "Hardee's",
+    				"restaurant_name": "Hardee's",
     				"food_type": "Fast Food",
     			},
 
@@ -33,7 +33,7 @@ def restaurant_detail(request):
 
     context = {
     	'my_object': {
-    		"resaurant_name": "Kudu",
+    		"restaurant_name": "Kudu",
     		"food_type": "Fast Food",
     	},
     }
